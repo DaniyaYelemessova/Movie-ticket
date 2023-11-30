@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Ticket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Movie Tickets</h1>
+  <form id="form">
+    <h2>Name of the movie</h2>
+    <label>
+      <input type="radio" name="movie" value="Home Alone" checked>
+      Home Alone
+    </label>
+    <label>
+      <input type="radio" name="movie" value="Harry Potter">
+      Harry Potter
+    </label>
+    <label>
+      <input type="radio" name="movie" value="Gladiator">
+      Gladiator
+    </label>
+
+    <h2>Time of the day:</h2>
+    <label>
+      <input type="radio" name="time" value="Morning" checked>
+      Morning
+    </label>
+    <label>
+      <input type="radio" name="time" value="Afternoon">
+      Afternoon
+    </label>
+    <label>
+      <input type="radio" name="time" value="Evening">
+      Evening
+    </label>
+
+    <h2>Age:</h2>
+    <label for="age">How old are you?</label>
+    <input type="number" id="age" required>
+    
+    <button type="submit">Enter</button>
+  </form>
+
+  <div id="output">
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
